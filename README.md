@@ -48,10 +48,10 @@ com.example.employeemanager
 Nhóm phân chia theo file để các thành viên có thể làm việc độc lập và hạn chế xung đột khi đẩy mã nguồn lên GitHub.
 |. Teammates | Phần phụ trách |
 |------------|----------------|
-| **Trịnh Thu Hồng**  | Base: cấu hình dự án, SQLite Database, Login, Lưu phiên đăng nhập  |
-| **Nguyễn Chí Ngọc** | Chức năng Admin: thêm, sửa, xóa, tìm kiếm nhân viên và quản lý bảng lương | 
-| **Trần Hoàng Nam**  | Chức năng Employee: check-in, check-out, xem lịch sử chấm công và tổng hợp giờ làm theo tháng | 
-Mã Java của các màn hình nằm trong `app/src/main/java/com/example/employeemanager/activities/`; các layout tương ứng nằm trong `app/src/main/res/layout/`.
+| **Trịnh Thu Hồng**  | Base: cấu hình dự án, khai báo tạo bảng SQLite Database, Login, Lưu phiên đăng nhập  |
+| **Nguyễn Chí Ngọc** | Chức năng Admin: thêm, sửa, xóa, tìm kiếm nhân viên và quản lý bảng lương, trong DB | 
+| **Trần Hoàng Nam**  | Chức năng Employee: check-in, check-out, xem lịch sử chấm công và tổng hợp giờ làm theo tháng, trong DB | 
+
 
 ## Business rules
 
