@@ -46,13 +46,11 @@ com.example.employeemanager
 ## Phân công công việc
 
 Nhóm phân chia theo file để các thành viên có thể làm việc độc lập và hạn chế xung đột khi đẩy mã nguồn lên GitHub.
-
-| Thành viên | Phần phụ trách | File phụ trách |
-|------------|----------------|------------------|
-| **Trịnh Thu Hồng** (Người 1) | Base: cấu hình dự án, SQLite Database, Login, SharedPreferences và các tiện ích dùng chung | Toàn bộ file Gradle, `.gitignore`, `README.md`, `AndroidManifest.xml`, `res/values/*`, `models/*`, `dal/DBHelper.java`, `utils/*`, `MainActivity.java`, `LoginActivity.java`, `activity_login.xml` |
-| **Nguyễn Chí Ngọc** (Người 2) | Chức năng Admin: thêm, sửa, xóa, tìm kiếm nhân viên và quản lý bảng lương | `AdminActivity.java`, `activity_admin.xml`, `dialog_employee.xml`, `SalaryActivity.java`, `activity_salary.xml` |
-| **Trần Hoàng Nam** (Người 3) | Chức năng Employee: check-in, check-out, xem lịch sử chấm công và tổng hợp giờ làm theo tháng | `EmployeeActivity.java`, `activity_employee.xml`, `AttendanceActivity.java`, `activity_attendance.xml` |
-
+|. Teammates | Phần phụ trách |
+|------------|----------------|
+| **Trịnh Thu Hồng**  | Base: cấu hình dự án, SQLite Database, Login, Lưu phiên đăng nhập  |
+| **Nguyễn Chí Ngọc** | Chức năng Admin: thêm, sửa, xóa, tìm kiếm nhân viên và quản lý bảng lương | 
+| **Trần Hoàng Nam**  | Chức năng Employee: check-in, check-out, xem lịch sử chấm công và tổng hợp giờ làm theo tháng | 
 Mã Java của các màn hình nằm trong `app/src/main/java/com/example/employeemanager/activities/`; các layout tương ứng nằm trong `app/src/main/res/layout/`.
 
 ## Business rules
